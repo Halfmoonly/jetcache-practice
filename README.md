@@ -7,6 +7,8 @@ jetcache的两级缓存降低了远程缓存的访问压力
 - 更新：@CacheUpdate
 - 读取：@Cache
 
+[basic_jetcache](basic_jetcache)
+
 使用十分方便，安心的应对大多数数据库操作与业务操作
 
 # 本地缓存
@@ -30,3 +32,7 @@ jetcache的两级缓存降低了远程缓存的访问压力
 上述场景，远程缓存是数据模块放置的，因此对应的本地缓存也只能是数据模块，远程缓存更新的时候永远也无法触发Biz模块本地缓存的更新
 
 因此造成Biz模块两级缓存不一致的问题，Biz模块优先读取过时的本地缓存就会造成业务混乱
+
+# 自定义缓存组件
+
+[custom_jetcache_framework](custom_jetcache_framework)
