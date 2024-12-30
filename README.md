@@ -1,6 +1,6 @@
 # jetcache-practice
 
-jetcache的两级缓存降低了远程缓存的访问压力
+jetcache的两级缓存降低了远程缓存的访问压力与耗时，如IO,网络传输
 
 # 注解使用
 方法级别注解：
