@@ -4,9 +4,9 @@
 #  #-----------------------------------------------------------------
 #  data:
 #    redis:
-#      host: 10.43.3.164
+#      host: ip
 #      port: ${REDIS_PORT:6379}
-#      password: ${REDIS_PASSWORD:Changeme_123}
+#      password: ${REDIS_PASSWORD:password}
 #      database: ${REDIS_DATABASE:15}
 #####################################################################
 ###                         Jet-cache 配置                          ##
@@ -29,9 +29,9 @@
 #        minIdle: 5
 #        maxIdle: 20
 #        maxTotal: 50
-#      host: 10.43.3.164
+#      host: ip
 #      port: ${REDIS_PORT:6379}
-#      password: ${REDIS_PASSWORD:Changeme_123}
+#      password: ${REDIS_PASSWORD:password}
 #      database: ${REDIS_DATABASE:15}
 spring:
   application:
